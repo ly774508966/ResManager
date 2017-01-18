@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PackageList>
+  <PackageAndroidList>
+    <!-- android -->
+    <package id="0" type="1" tag="QIHUSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.qihoo" pushkey = "d8bb4b7fed5bf2a82ca0dce4"/>
+    <package id="1" type="1" tag="HUAWEISDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.huawei" pushkey = "6fad0a0007d4754c81f9f0cc"/>
+    <package id="2" type="1" tag="UCSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.uc" pushkey = "8c285b43283598f43c2f150c"/>
+    <package id="3" type="1" tag="BAIDUSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.baidu" pushkey = "3cc3a3c853a55af971a2589a"/>
+    <package id="4" type="1" tag="OPPOSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.nearme.gamecenter" pushkey = "a46c8a324e87ed3b20205713"/>
+    <package id="5" type="1" tag="VIVOSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.vivo" pushkey = "dca103fcf3eb7b5c8487cd66"/>
+    <package id="6" type="1" tag="TENCENTSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.tencent.tmgp.dntgzz" pushkey = "6458855fe6a82b0216bfb619"/>
+    <package id="7" type="1" tag="MISDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.mi" pushkey = "cd2b4e78bd61141f108d47b3"/>
+    <package id="8" type="1" tag="DEBUG_LAN" desc="" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.uc" pushkey = ""/>
+    <package id="9" type="1" tag="DEBUG_WAN" desc="" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.uc" pushkey = ""/>
+    <package id="10" type="1" tag="LENOVOSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.lenovo" pushkey = "290902ff9ab9a932defb9839"/>
+    <package id="11" type="1" tag="COOLPADSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.coolpad" pushkey = "06ec8809c6d8409c535524c9"/>
+    <package id="12" type="1" tag="AMIGOSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.am" pushkey = "be8f1799ec4cfbe8d7ed33cc"/>
+    <package id="13" type="1" tag="FLYMESDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk.mz" pushkey = "99ccf33a49332d2bd6e4ebf8"/>
+    <package id="14" type="1" tag="YJSDK" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk" pushkey = "2bc366e5f9dbb6f94f30d937"/>
+    <package id="15" type="1" tag="GAMEDOSDK_2000" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgzz" pushkey = "89b709a190c696efa70d8177"/>
+    <package id="16" type="1" tag="GAMEDOSDK_CPS" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgzz" pushkey = "89b709a190c696efa70d8177"/>
+    <package id="17" type="1" tag="GAMEDOSDK_GUANWANG" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgzz" pushkey = "89b709a190c696efa70d8177"/>
+    <package id="18" type="1" tag="GAMEDOSDK_CPS_NEW" desc="ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgzz" pushkey = "89b709a190c696efa70d8177"/>
+    <package id="19" type="1" tag="TENCENTSDK_NEW" desc="ANDROIDSDK" app="西游封魔录" identifier="com.tencent.tmgp.xyfml" pushkey = "1d02fe08d5c3efbb68604872"/>
+    <package id="20" type="1" tag="YJSDK_NO_DATAEYE" desc="YJSDK_NO_DATAEYE;ANDROIDSDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgwk" pushkey = "2bc366e5f9dbb6f94f30d937"/>
+    <!-- package id="" type="1" tag="MOYOSDK_ITOOLS" desc="MOYOSDK" app="大闹天宫：悟空" identifier="com.romanlife.dtwz.itools.sky" pushkey = ""/-->
+  </PackageAndroidList>
+  <PackageIOSList>
+    <!--ios-->
+    <package id="0" type="2" tag="APPSTORE" desc="IPHONESDK" app="西游封魔录" identifier="com.gamedo.danaotiangongwk" pushkey = ""/>
+    <package id="1" type="2" tag="APPSTOREHD" desc="IPHONESDK;APPSTORE" app="西游封魔录HD" identifier="com.gamedo.dzfmlHD3" pushkey = ""/>
+    <package id="2" type="2" tag="APPSTORE3D" desc="IPHONESDK;APPSTORE" app="西游封魔录3D" identifier="com.gamedo.dntgptzs" pushkey = ""/>
+    <package id="3" type="2" tag="MOYOSDK_ITOOLS" desc="MOYOSDK_ITOOLS" app="大闹天宫：悟空" identifier="com.romanlife.dtwz.sky" pushkey = ""/>
+    <package id="4" type="2" tag="MOYOSDK_PP" desc="MOYOSDK_PP" app="大闹天宫：悟空" identifier="com.romanlife.dtwz.pp" pushkey = ""/>
+    <package id="5" type="2" tag="MOYOSDK_XY" desc="MOYOSDK_XY" app="大闹天宫：悟空" identifier="com.romanlife.dtwz.xy" pushkey = ""/>
+    <package id="6" type="2" tag="MOYOSDK_I4" desc="MOYOSDK_I4" app="大闹天宫：悟空" identifier="com.romanlife.dtwz.i4" pushkey = ""/>
+    <package id="7" type="2" tag="YJSDK" desc="IPHONESDK" app="大闹天宫：悟空" identifier="com.gamedo.dntgzz" pushkey = ""/>
+    <package id="8" type="2" tag="DEBUG_LAN" desc="" app="大闹天宫：悟空" identifier="com.hdls.dgame.dtwz" pushkey = ""/>
+    <package id="9" type="2" tag="DEBUG_WAN" desc="" app="大闹天宫：悟空" identifier="com.hdls.dgame.dtwz" pushkey = ""/>
+  </PackageIOSList>
+</PackageList>

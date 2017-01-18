@@ -1,0 +1,114 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using System.Xml;
+using System.Reflection;
+
+public class <CLASS_DEFINE>
+{
+<FIELD_DEFINE>
+}
+
+public class <CLASS_READER_DEFINE> : IText<<CLASS_DEFINE>>{
+
+    private static string fileName = "<FILE_NAME>";
+    private static <CLASS_READER_DEFINE> instance = null;
+    private static Dictionary<string, <CLASS_DEFINE>> dicts = new Dictionary<string, <CLASS_DEFINE>>();
+    public virtual void Init () {
+        XmlDocument xmlDocument = new XmlDocument();
+        xmlDocument.Load(Application.dataPath + "/" + fileName);
+		
+        if(xmlDocument != null)
+        {
+            ReadListOfTFromXml(xmlDocument);
+        }
+	}
+
+    public static <CLASS_READER_DEFINE> Instance
+    {
+        get
+        {
+            if(instance == null)
+            {
+                instance = new <CLASS_READER_DEFINE>();
+                instance.Init();
+            }
+            return instance;
+        }
+    }
+
+    public Dictionary<string, <CLASS_DEFINE>> ReadListOfTFromXml(XmlDocument xmlDocument) {
+        XmlNodeList nodeList = xmlDocument.ChildNodes[0].ChildNodes;
+        for(int i = 0;i < nodeList.Count;i++)
+        {
+            XmlNode node = nodeList[i];
+            <CLASS_DEFINE> <CLASS_INSTANCE_DEFINE> = ReadTFromXml(node);
+            if(<CLASS_INSTANCE_DEFINE> != null)
+            {
+                dicts[<CLASS_INSTANCE_DEFINE>.id] = <CLASS_INSTANCE_DEFINE>;
+            }
+        }
+        return dicts;
+	}
+
+    public <CLASS_DEFINE> ReadTFromXml(XmlNode xmlNode)
+    {
+<METHOD_DEFINE>
+    }
+
+    public <CLASS_DEFINE> FindById(string id)
+    {
+        if(dicts.ContainsKey(id))
+            return dicts[id];
+        return null;
+    }
+
+    public <CLASS_DEFINE> FindByKeyAndValue(string key,object obj)
+    {
+        FieldInfo fieldInfo = typeof(<CLASS_DEFINE>).GetField(key);
+        if(fieldInfo != null && dicts.Count > 0)
+        {
+            List<<CLASS_DEFINE>> list = new List<<CLASS_DEFINE>>(dicts.Values);
+            for(int i = 0;i < list.Count;i++)
+            {
+                if (list[i] != null && fieldInfo.GetValue(list[i]).Equals(obj))
+                    return list[i];
+            }
+        }
+
+        return null;
+    }
+
+
+    public List<<CLASS_DEFINE>> FindListByKeyAndValue(string key, object obj)
+    {
+        FieldInfo fieldInfo = typeof(<CLASS_DEFINE>).GetField(key);
+        if (fieldInfo != null && dicts.Count > 0)
+        {
+            List<<CLASS_DEFINE>> list = new List<<CLASS_DEFINE>>(dicts.Values);
+            List<<CLASS_DEFINE>> retList = new List<<CLASS_DEFINE>>();
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] != null && fieldInfo.GetValue(list[i]).Equals(obj))
+                    retList.Add(list[i]);
+            }
+            return retList;
+        }
+
+        return null;
+    }
+}
+
+public class <CLASS_ASSET_BUNDLE_READER_DEFINE> : <CLASS_READER_DEFINE>{
+
+    private static string fileName = "<ASSET_BUNDLE_NAME>";
+    private static <CLASS_ASSET_BUNDLE_READER_DEFINE> instance = null;
+    private static Dictionary<string, <CLASS_DEFINE>> dicts = new Dictionary<string, <CLASS_DEFINE>>();
+    public override void Init () {
+        XmlDocument xmlDocument = TextUtils.OpenXml(fileName);
+        if(xmlDocument != null)
+        {
+            ReadListOfTFromXml(xmlDocument);
+        }
+	}
+}

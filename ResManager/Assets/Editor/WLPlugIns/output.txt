@@ -1,0 +1,41 @@
+<resourceAssets>
+	<resourceAsset id = "commonatlas" name = "commonatlas" path = "Resources/commonatlas" version = "6616" hash = "00cfff1b839246452b05a2510d72d61a"/>
+	<resourceAsset id = "testatlas1" name = "testatlas1" path = "Resources/testatlas1" version = "6616" hash = "44b6b7ac3c9bf9b60298551b58cf589f"/>
+	<resourceAsset id = "testatlas2" name = "testatlas2" path = "Resources/testatlas2" version = "6616" hash = "b7243588d3b3f418fc6f5bf2cce1afcf"/>
+	<resourceAsset id = "active" name = "active" path = "Resources/active" version = "6616" hash = "a25a445e15599ba7c20432f5e58e1cb6"/>
+	<resourceAsset id = "assets/textures/new/neiye" name = "assets/textures/new/neiye" path = "Resources/assets/textures/new/neiye" version = "6616" hash = "d4d3078cd2f8a1887dae94ce944b154c"/>
+</resourceAssets>
+
+<resourceAssets>
+	<resourceAsset id = "commonatlas" name = "commonatlas" path = "Resources/commonatlas" version = "6616" hash = "00cfff1b839246452b05a2510d72d61a"/>
+	<resourceAsset id = "testatlas1" name = "testatlas1" path = "Resources/testatlas1" version = "6616" hash = "44b6b7ac3c9bf9b60298551b58cf589f"/>
+	<resourceAsset id = "testatlas2" name = "testatlas2" path = "Resources/testatlas2" version = "6616" hash = "b7243588d3b3f418fc6f5bf2cce1afcf"/>
+	<resourceAsset id = "active" name = "active" path = "Resources/active" version = "6617" hash = "04d8a651e2ada6ae72253e63582aa964"/>
+	<resourceAsset id = "assets/textures/new/neiye" name = "assets/textures/new/neiye" path = "Resources/assets/textures/new/neiye" version = "6616" hash = "d4d3078cd2f8a1887dae94ce944b154c"/>
+</resourceAssets>
+
+<prefabAssets>
+	<prefabAsset id = "AssetBundleManifest" name = "AssetBundleManifest" bundleName = "Resources"/>
+	<prefabAsset id = "commonatlas.prefab" name = "commonatlas.prefab" bundleName = "commonatlas"/>
+	<prefabAsset id = "commonatlas.png" name = "commonatlas.png" bundleName = "commonatlas"/>
+	<prefabAsset id = "commonatlas.mat" name = "commonatlas.mat" bundleName = "commonatlas"/>
+	<prefabAsset id = "testatlas1.prefab" name = "testatlas1.prefab" bundleName = "testatlas1"/>
+	<prefabAsset id = "testatlas1.mat" name = "testatlas1.mat" bundleName = "testatlas1"/>
+	<prefabAsset id = "testatlas1.png" name = "testatlas1.png" bundleName = "testatlas1"/>
+	<prefabAsset id = "testatlas2.prefab" name = "testatlas2.prefab" bundleName = "testatlas2"/>
+	<prefabAsset id = "testatlas2.png" name = "testatlas2.png" bundleName = "testatlas2"/>
+	<prefabAsset id = "testatlas2.mat" name = "testatlas2.mat" bundleName = "testatlas2"/>
+	<prefabAsset id = "UIActive.prefab" name = "UIActive.prefab" bundleName = "active"/>
+	<prefabAsset id = "UIActive1.prefab" name = "UIActive1.prefab" bundleName = "active"/>
+	<prefabAsset id = "UIActive2.prefab" name = "UIActive2.prefab" bundleName = "active"/>
+	<prefabAsset id = "neiye.png" name = "neiye.png" bundleName = "assets/textures/new/neiye"/>
+</prefabAssets>
+
+<resourceAssets>
+	<resourceAsset id = "Resources" name = "Resources" path = "Resources/Resources" version = "6617" hash = ""/>
+	<resourceAsset id = "commonatlas" name = "commonatlas" path = "Resources/commonatlas" version = "6616" hash = "00cfff1b839246452b05a2510d72d61a"/>
+	<resourceAsset id = "testatlas1" name = "testatlas1" path = "Resources/testatlas1" version = "6616" hash = "44b6b7ac3c9bf9b60298551b58cf589f"/>
+	<resourceAsset id = "testatlas2" name = "testatlas2" path = "Resources/testatlas2" version = "6616" hash = "b7243588d3b3f418fc6f5bf2cce1afcf"/>
+	<resourceAsset id = "active" name = "active" path = "Resources/active" version = "6617" hash = "a0e0fbbb7e4397cdfda748fbbf2dca33"/>
+	<resourceAsset id = "assets/textures/new/neiye" name = "assets/textures/new/neiye" path = "Resources/assets/textures/new/neiye" version = "6616" hash = "d4d3078cd2f8a1887dae94ce944b154c"/>
+</resourceAssets>

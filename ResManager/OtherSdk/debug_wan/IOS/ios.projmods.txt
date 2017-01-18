@@ -1,0 +1,19 @@
+{
+    "group": "ios",
+    "libs": [],
+    "frameworks": [
+	"Security.framework",
+	"SystemConfiguration.framework",
+	"CoreGraphics.framework",
+	"UIKit.framework",
+	"AdSupport.framework:optional",
+	"CoreTelephony.framework",
+	"Foundation.framework",
+	"StoreKit.framework"
+                ],
+    "headerpaths": [],
+    "files":   [],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "linker_flags": ["-ObjC"]
+}
